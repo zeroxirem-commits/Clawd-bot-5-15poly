@@ -1,0 +1,20 @@
+{
+  "entry_threshold": 0.05,
+  "min_momentum_pct": 1.0,
+  "max_position": 5.0,
+  "signal_source": "binance",
+  "lookback_minutes": 5,
+  "min_time_remaining": 60,
+  "target_time_min": 90,
+  "target_time_max": 210,
+  "asset": "BTC",
+  "window": "5m",
+  "volume_confidence": true,
+  "require_funding": false,
+  "require_orderbook": false,
+  "time_filter": true,
+  "vol_sizing": true,
+  "fee_buffer": 0.05,
+  "daily_budget": 10.0,
+  "starting_balance": 1000.0
+}
